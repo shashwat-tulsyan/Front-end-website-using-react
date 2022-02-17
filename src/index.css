@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar
+{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.navbar-brand
+{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar-nav li
+{
+  padding: 0 1rem;
+}
+.but
+{
+ padding: 0 2rem; 
+ margin: 0 1rem;
+ height: 2rem;
+ border-radius: 2px;
+}
+/* ============================header ========================*/
+header
+{
+  background-color:lightsteelblue;
+  height:110vh;
+}
+
+.mainhead{
+  display:flex;  
+}
+.cn
+{
+   margin-top:5rem;
+}
+.mainhead h1
+{
+  text-transform: capitalize;
+}
+.Main-para
+{
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-weight: lighter;
+  width: 75%;
+  margin: 3rem 0 3rem 0;
+}
+.mainimg{ 
+  position:relative;
+  margin-top: 2rem;
+}
+.mainimg img
+{
+  width:60%;
+  height:75%;
+  position: absolute;
+}
+.mainimg .img2
+{
+  position:absolute;
+  width: 50%;
+  height: 30%;
+  left: 22%;
+  top: -5%;
+}
+.inputgroup input
+{
+  margin-left:1rem;
+  background-color:magenta;
+  color:black;
+}
+::placeholder{
+  color: black;
+  padding-left: 1rem;
+}
+.input-group-button
+{
+   position:relative;
+   left:50%;
+   bottom:50%;
+}
+.input-group-button button
+{
+ background-color: chartreuse;
+ border-radius: 1rem;
+}
+/* ======================work css ===============================*/
+.main-head
+{
+  background-color:white;
+  position:relative;
+  top:-6rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  height:80vh;
+  border-radius:1rem;
+}
+.data
+{
+  margin: 0 2rem;
+}
+.head1{
+  padding:2rem 3rem;
+  margin:3rem;
+}
+.logo
+{
+  font-size:1rem;
+  color:black;
+  padding:1rem;
+  margin: 1rem auto;
+  background-color:yellowgreen;
+  border-radius:2rem ;
+}
+.main-hero-para
+{
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+/*========================== how does it work =============================*/
+.mainuse
+{
+  background-color:white;
+  border-radius:2rem;
+  height: 90vh;
+  padding: 0 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+
+}
+.mainuse img
+{
+  width:40%;
+  height:78%;
+  margin-top:15%;
+  border-radius:2rem;
+  /* margin:auto; */
+}
+.minititle
+{
+  margin-top: 7rem 0; 
+  text-align: left; 
+}
+.mini
+{
+  text-align: left;
+}
+.num
+{
+  border: 2px solid black;
+  padding: 0.4rem 0.4rem;
+  border-radius:8rem;
+  margin-right: 0.4rem;
+  font-size: 1rem;
+}
+.minititle button
+{
+  text-align: left;
+  border-radius:8rem;
+}
+/*============================= support=================================== */
+
+/* send */
+.bord{
+  padding:1rem 2rem;
+  border-radius: 1rem;
+  margin:0.1rem auto;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+
+}
+.bord:hover{
+  background-color:lightsteelblue;
+
+}
+
+/* ===========================connect==================================== */
+.connectmain
+{
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  padding: 2rem 4rem;
+  border-radius: 2rem;
+}
+.connimg img
+{
+  border-radius:2rem;
+  width:80%;
+  height: 90%;
+}
+
+/* ================================foot==================================== */
+footer
+{
+  align-self: end;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   padding:3rem 0;
+   background-color:rgb(66, 135, 245);
+   color: cornsilk;
+   text-align: center;
+}
+footer li{
+  list-style: none;
+  
+}
+footer li a
+{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* ======================================notfound=========================== */
